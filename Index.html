@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Drum Kit</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" href="https://fav.farm/✅" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="keys">
+    <div data-key="65" class="key clap">
+      <kbd>A</kbd>
+      <span class="sound">clap</span>
+    </div>
+    <div data-key="83" class="key hihat">
+      <kbd>S</kbd>
+      <span class="sound">hihat</span>
+    </div>
+    <div data-key="68" class="key kick">
+      <kbd>D</kbd>
+      <span class="sound">kick</span>
+    </div>
+    <div data-key="70" class="key openhat">
+      <kbd>F</kbd>
+      <span class="sound">openhat</span>
+    </div>
+    <div data-key="71" class="key boom">
+      <kbd>G</kbd>
+      <span class="sound">boom</span>
+    </div>
+    <div data-key="72" class="key ride">
+      <kbd>H</kbd>
+      <span class="sound">ride</span>
+    </div>
+    <div data-key="74" class="key snare">
+      <kbd>J</kbd>
+      <span class="sound">snare</span>
+    </div>
+    <div data-key="75" class="key tom">
+      <kbd>K</kbd>
+      <span class="sound">tom</span>
+    </div>
+  </div>
+
+  <audio data-key="65" id="clap" src="sound2/clap.wav" id="clap"></audio>
+  <audio data-key="83" id="hihat" src="sound2/hihat.wav" id="hihat"></audio>
+  <audio data-key="68" id="kick" src="sound2/kick.wav" id="kick"></audio>
+  <audio data-key="70" id="openhat" src="sound2/openhat.wav"></audio>
+  <audio data-key="71" id="boom" src="sound2/boom.wav"></audio>
+  <audio data-key="72" id="ride" src="sound2/ride.wav"></audio>
+  <audio data-key="74" id="snare" src="sound2/snare.wav"></audio>
+  <audio data-key="75" id="tom" src="sound2/tom.wav"></audio>
+
+
+</body>
+</html>
